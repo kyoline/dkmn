@@ -1,0 +1,15 @@
+[package]
+name = "dkmn"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1"
+clap = { version = "4", features = ["cargo", "derive"]}
+tokio = { version = "1", features = ["full"]}
+clap_complete = "4.2.0"
+
+[dev-dependencies]
+anyhow = "1"
