@@ -1,5 +1,3 @@
-#![allow(unused)] // comment later
-
 use clap::Parser;
 use commands::SubCommand;
 use prelude::Error;
